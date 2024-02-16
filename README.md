@@ -12,3 +12,5 @@ After calculating the max of two different layouts (how the cargo is input vs ro
 ### Future additions 
 
 Eventually I'd love to make this take multiple cargo sizes at once, as well as handling weight distrubution. 
+
+Mobile viewing would also be nice, as of now it gets smooshed pretty good on mobile. 
