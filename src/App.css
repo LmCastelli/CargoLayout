@@ -1,38 +1,61 @@
 .App {
-  text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.SpecsField {
+    align-self: flex-start;
+    width: 15%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ResultShell {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-top: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#TruckShell {
+    position: absolute;
+    background-color: gray;
+    outline: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.CargoInfo {
+    margin-left: 60%;
+    margin-top: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.InputHeight {
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 20%;
 }
+
+.InputLength {
+    width: 30%;
+    margin-left: 4%;
+    margin-right: 20%;
+}
+
+.InputWidth {
+    width: 30%;
+    margin-left: 7%;
+    margin-right: 20%;
+}
+
+.RadioInput {
+    width: 10%;
+    margin-right: 60%;
+    margin-left: 5%;
+}
+

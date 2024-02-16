@@ -1,0 +1,9 @@
+.TestDiv {    
+    position: absolute;
+    background-color: blue;
+    outline: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
