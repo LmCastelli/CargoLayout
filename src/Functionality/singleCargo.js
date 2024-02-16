@@ -56,15 +56,10 @@ function SingleCargo(cL, cW, cH, tL, tW, tH, stack) {
 
     return result;
 
-    
-    
     function LayoutCalc (cL, cW, tL, tW) {
         let lRemainder = tL % cL;
         let wRemainder = tW % cW;
         let extra = 0;
-        // 3,5  20, 14
-        // 2...4
-        // 2<5 but 4>3
 
         if(lRemainder >= cW){
             extra = Math.floor(lRemainder/cW) * Math.floor(tW/cL)

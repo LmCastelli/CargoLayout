@@ -63,7 +63,6 @@ function CargoPosition(result, cL, cW, tL, tW) {
             }
         }
     }
-    console.log(cargos)
     return cargos;
 }
 
