@@ -112,22 +112,22 @@ function App() {
           </label>
           <label>
             <h3>Can the cargo be stacked?</h3>
-            <label> False
+            <label> Yes
               <input 
                 className="RadioInput"
                 style={{marginLeft:7}}
                 type="radio"
                 name="stack"
-                value={false}
+                value={true}
                 onChange={handleRadioChange}
               />
             </label>
-            <label> True 
+            <label> No 
               <input 
                 className="RadioInput"
                 type="radio"
                 name="stack"
-                value={true}
+                value={false}
                 onChange={handleRadioChange}
               />
             </label>
